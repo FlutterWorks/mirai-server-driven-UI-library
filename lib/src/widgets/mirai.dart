@@ -6,6 +6,7 @@ import 'package:mirai/src/widgets/mirai_column/mirai_column_parser.dart';
 import 'package:mirai/src/widgets/mirai_container/mirai_container.dart';
 import 'package:mirai/src/widgets/mirai_elevated_button/mirai_elevated_button_parser.dart';
 import 'package:mirai/src/widgets/mirai_floating_action_button/mirai_floating_action_button_parser.dart';
+import 'package:mirai/src/widgets/mirai_form/mirai_form_parser.dart';
 import 'package:mirai/src/widgets/mirai_icon/mirai_icon_parser.dart';
 import 'package:mirai/src/widgets/mirai_icon_button/mirai_icon_button_parser.dart';
 import 'package:mirai/src/widgets/mirai_image/mirai_image_parser.dart';
@@ -36,6 +37,7 @@ class Mirai {
     MiraiAppBarParser(),
     MiraiTextButtonParser(),
     MiraiSizedBoxParser(),
+    MiraiFormParser(),
   ];
 
   static Future<void> initialize({

@@ -60,6 +60,7 @@ class HomePage extends StatelessWidget {
               Mirai.fromJson(paddingJson, context),
               Mirai.fromJson(sizedBoxJson, context),
               Mirai.fromJson(textButtonJson, context),
+              _MiraiFormSample()
             ]),
           ),
         ),
@@ -284,3 +285,24 @@ final sizedBoxJson = {
   'type': 'sizedBox',
   'height': 20,
 };
+
+final formJson = {
+  'type': 'form',
+  'child': columnJson,
+};
+
+class _MiraiFormSample extends StatelessWidget {
+  const _MiraiFormSample({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 200,
+      color: Colors.lightBlue,
+      child: MiraiFormParser(formKey: GlobalKey()).parse(
+        context,
+        MiraiForm.fromJson(formJson),
+      ),
+    );
+  }
+}

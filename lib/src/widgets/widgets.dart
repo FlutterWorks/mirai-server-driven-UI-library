@@ -7,6 +7,7 @@ export 'package:mirai/src/widgets/mirai_column/mirai_column.dart';
 export 'package:mirai/src/widgets/mirai_container/mirai_container.dart';
 export 'package:mirai/src/widgets/mirai_elevated_button/mirai_elevated_button.dart';
 export 'package:mirai/src/widgets/mirai_floating_action_button/mirai_floating_action_button.dart';
+export 'package:mirai/src/widgets/mirai_form/mirai_form.dart';
 export 'package:mirai/src/widgets/mirai_icon/mirai_icon.dart';
 export 'package:mirai/src/widgets/mirai_icon_button/mirai_icon_button.dart';
 export 'package:mirai/src/widgets/mirai_image/mirai_image.dart';
